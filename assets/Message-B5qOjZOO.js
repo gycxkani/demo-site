@@ -1,0 +1,1 @@
+import{u as t,o as n,b as s,d as o,t as r,f as l,e as c,F as p,bo as _}from"./index-B2sUpHKW.js";const f={__name:"Message",setup(i){const{t:e}=t();return(u,m)=>{const a=_;return n(),s(p,null,[o("h1",null,"这是个人中心消息页面--"+r(l(e)("sitename")),1),c(a,{"page-size":100,layout:"total,prev,pager,next",total:1e3})],64)}}};export{f as default};

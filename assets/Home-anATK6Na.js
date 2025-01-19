@@ -1,0 +1,1 @@
+import{i as n,c as a,o as r,b as l,g as u,d as e,t as c,f as p,F as m}from"./index-B2sUpHKW.js";const d={class:"wrap"},g={__name:"Home",setup(i){const s=n(),o=a(()=>s.state.count);return(_,t)=>(r(),l(m,null,[t[0]||(t[0]=u(" 这里是Home页面 ")),t[1]||(t[1]=e("hr",null,null,-1)),e("div",d,[e("p",null,"count: "+c(p(o)),1)])],64))}};export{g as default};

@@ -1,0 +1,1 @@
+import{aT as t}from"./index-B2sUpHKW.js";const r=e=>t({url:"sys/notice/listPage",method:"get",data:e}),n=e=>t({url:"sys/notice/save",method:"post",data:e}),u=e=>{const{id:s}=e;return delete e.id,t({url:`sys/notice/update/${s}`,method:"post",data:e})},c=e=>t({url:"sys/notice/delete",method:"post",data:e});export{r as l,c as r,n as s,u};
