@@ -18,11 +18,11 @@ jobs:
         # 使用checkou插件
         uses: actions/checkout@v4
       # 步骤2：安装和打包
-      - name: Install and Build  # 这个示例项目使用npm构建，并将结果输出到“构建”文件夹中。替换为构建项目所需的命令，如果站点是预先构建的，则完全删除此步骤。
-        # 运行的命令，这里包含两条：npm i 和 npm run build
-        run: |
-          npm i
-          npm run build
+      # - name: Install and Build  # 这个示例项目使用npm构建，并将结果输出到“构建”文件夹中。替换为构建项目所需的命令，如果站点是预先构建的，则完全删除此步骤。
+      #   # 运行的命令，这里包含两条：npm i 和 npm run build
+      #   run: |
+      #     npm i
+      #     npm run build
       # 步骤3：部署静态资源
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
